@@ -24,4 +24,8 @@ def secure_token
 	end
 end
 
+<<<<<<< HEAD
 HtmeditApp::Application.config.secret_key_base = secure_token
+=======
+HtmeditApp::Application.config.secret_key_base = 'a6ca156eb79e646022b7d75f4f1d34773268c27a098bb44907679942c5e072d6ef306df2b162aee38cff33d6427e4680c58a27ecce88d023cd95433971d4815e'
+>>>>>>> origin/master

@@ -3,8 +3,13 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 gem 'rails', '4.0.4'
 group :development, :test do
+<<<<<<< HEAD
 gem 'sqlite3', '1.3.8'
 gem 'rspec-rails', '2.13.1'
+=======
+	gem 'sqlite3', '1.3.8'
+	gem 'rspec-rails', '2.13.1'
+>>>>>>> origin/master
 end
 group :test do
 	gem 'selenium-webdriver', '2.35.1'
